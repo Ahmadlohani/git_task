@@ -103,6 +103,10 @@ input[type=submit]:hover {
     </div>
   </form>
 </div>
-
+<div class="values">
+    <h3><?php echo isset($_SESSION["name"])? $_SESSION["name"]: "" ?></h3>
+    <h3><?php echo isset($_SESSION["username"])? $_SESSION["username"]: "" ?></h3>
+    <h3><?php echo isset($_SESSION["email"])? $_SESSION["email"]: "" ?></h3>
+</div>
 </body>
 </html>
