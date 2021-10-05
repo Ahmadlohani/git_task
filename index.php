@@ -70,45 +70,32 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h2>Responsive Form</h2>
-<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+<h2>Register Form</h2>
 
 <div class="container">
   <form action="action.php">
     <div class="row">
       <div class="col-25">
-        <label for="fname">First Name</label>
+        <label for="name">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="name" name="name" placeholder="Name">
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="lname">Last Name</label>
+        <label for="username">User Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="username" name="username" placeholder="Username">
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="country">Country</label>
+        <label for="email">Email</label>
       </div>
       <div class="col-75">
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <input type="text" id="email" name="email" placeholder="Email">
       </div>
     </div>
     <div class="row">
