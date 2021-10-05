@@ -73,7 +73,7 @@ input[type=submit]:hover {
 <h2>Register Form</h2>
 
 <div class="container">
-  <form action="action.php">
+  <form action="action.php" method="post">
     <div class="row">
       <div class="col-25">
         <label for="name">Name</label>
